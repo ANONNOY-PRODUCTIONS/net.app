@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+
+
+.heading{
+   font-family: 'Croissant One', cursive;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, label, input, button {
+   margin: 0;
+   padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+   background-color: #f4f4f4;
+   font-family: Arial, sans-serif;
+   text-align: center;
+}
+
+/* Style the heading */
+.heading {
+   padding: 20px;
+}
+
+h1 {
+   font-size: 2.5rem;
+   color: #333;
+}
+
+h2 {
+   font-size: 1.5rem;
+   color: #555;
+}
+
+h3 {
+   font-size: 1.2rem;
+   color: #777;
+}
+
+/* Style the questions and inputs */
+.questions {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+label {
+   font-size: 1.2rem;
+   color: #333;
+   margin-top: 20px;
+   display: block;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 1rem;
+}
+
+/* Style the Submit button */
+button {
+   background-color: #007bff;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   margin: 20px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
